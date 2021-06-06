@@ -13,7 +13,7 @@ source ~/AppData/Local/nvim/plugins/coc-config.vim
 
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
 let g:airline#extensions#tabline#right_sep = ''
 let g:airline#extensions#tabline#right_alt_sep = ''
@@ -25,16 +25,18 @@ let g:ariline_theme='onedark'
   endif
 
 " airline symbols
-let g:airline_left_sep = '>>'
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = '<<'
-let g:airline_right_alt_sep = '(C)'
-let g:airline_symbols.branch = 'GITbranch'
-let g:airline_symbols.readonly = 'R'
-let g:airline_symbols.linenr = ' _ '
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = '  '
 
 " Switch to your current theme
 let g:airline_theme = 'onedark'
+
+set encoding=utf-8
 
 " Always show tabs
 set showtabline=2
@@ -42,6 +44,6 @@ set showtabline=2
 "Git integration config
 let g:signify_sign_add               = '+'
 let g:signify_sign_delete            = '_'
-let g:signify_sign_delete_first_line = '‾'
+let g:signify_sign_delete_first_line = '-'
 let g:signify_sign_change            = '~'
 

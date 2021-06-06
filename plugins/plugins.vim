@@ -61,4 +61,10 @@ Plug 'powerline/fonts'
 "Fugitive Vim GIT
 Plug 'tpope/vim-fugitive'
 
+"Rainbow para colorear corchetes
+Plug 'luochen1990/rainbow'
+
+"HTML match Tag
+Plug 'gregsexton/matchtag'
+
 call plug#end()

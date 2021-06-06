@@ -117,11 +117,32 @@ nmap <leader>bd :bdelete<CR>
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
-
+"Rainbow Colorizador de corchetes 
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 
 set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 colorscheme tokyonight
 "Close tags automatically
-"Cerrar tags automaticamente let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js' ----------------------------------------------------------------- 
+"Cerrar tags automaticamente let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js' -----------------------------------------------------------------
+
+
+
+"Inteto de usar ruta de python
+"let g:python_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
+"let g:python3_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
+
+
+
+
+"Inteto de usar ruta de python
+let g:python_host_prog ='/python27/python.exe'
+let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
+
+
+"Inteto de usar ruta de python
+"let g:python_host_prog ='/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
+"let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
+
+
