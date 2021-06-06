@@ -129,20 +129,20 @@ colorscheme tokyonight
 
 
 
-"Inteto de usar ruta de python
-"let g:python_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
-"let g:python3_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
-
-
-
 
 "Ruta de python 
-let g:python_host_prog ='/python27/python.exe'
+
 let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
+let g:python_host_prog ='/python27/python.exe'
 
 
+
+"-----------------------------------------------------------------------------------------
 "Inteto de usar ruta de python
 "let g:python_host_prog ='/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
 "let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
 
+"Inteto de usar ruta de python
+"let g:python_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
+"let g:python3_host_prog = 'C:\Users\Acer\AppData\Local\Programs\Python\Python3\python.exe'
 
