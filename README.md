@@ -12,4 +12,4 @@ Requisitos para instalar esto
 
 4 nvim :D
 
-5 Paciencia
+5 Paciencia... mucha mucha paciencia y a eso hechele ganas xD
