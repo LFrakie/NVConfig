@@ -1,8 +1,6 @@
-## Neovim Windows
+## Vn Win Init
 
-Toda la explicación se encuentra en mi canal de youtube. [Joaquin Varela ](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
-
-Tengo varios videos con explicaciones de instalacion y configuracion.
+Config by FranZ
 
 Requisitos para instalar esto
 
@@ -12,5 +10,6 @@ Requisitos para instalar esto
 
 3 RipGrep
 
-4 nvim :)
+4 nvim :D
 
+5 Paciencia
