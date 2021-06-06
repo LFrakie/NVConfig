@@ -136,7 +136,7 @@ colorscheme tokyonight
 
 
 
-"Inteto de usar ruta de python
+"Ruta de python 
 let g:python_host_prog ='/python27/python.exe'
 let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
 
