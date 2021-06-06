@@ -1,4 +1,4 @@
-## Vn Win Init
+## Vn Win Init v2.2
 
 Config by FranZ
 
