@@ -89,7 +89,7 @@ nmap <leader>gp :! git push -u origin master
 nmap <leader>ggg :! git add . & git commit -m "update L/I" & git push -u origin master <Enter>
 
 "Git GCG git customizable push
-nmap <leader>gt :! git add . & git commit -m "GCG update" & git push -u origin 
+imap hhwgc <Esc>:w<Enter>:! git add . & git commit -m "GCG update" & git push -u origin 
 
 
 
