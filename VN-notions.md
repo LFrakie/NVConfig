@@ -10,7 +10,7 @@ Ctrl + t
 Ctrl + t t
 
 / regresar de main a terminal:
-<leader> + t
+leader + t
 
 / Redimencionar tamaño de terminal
 aumentar:
