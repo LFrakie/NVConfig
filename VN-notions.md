@@ -1,4 +1,5 @@
 Path neovim: C:\Users\Acer\AppData\Local\nvim
+
 ////////////////////////////////////////////////////
 
 /////// ACTIVAR TERMINAL
