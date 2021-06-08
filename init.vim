@@ -23,11 +23,15 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
-"Get out of insert mode 
+"Get out of insert mode  
 "Salir de modo insertar
 imap hh <Esc>
 imap HH <Esc>2
 imap <C-c> <Esc>l
+
+"Posicionarse al inicio o final de una linea
+nmap n 0 
+nmap m $
 
 "Salir de modo insertar y guardar
 imap hhw <Esc> :w <Enter>
@@ -53,7 +57,7 @@ tnoremap <silent> <C-z> <C-\><C-n>:ToggleTerminal<Enter>
 "////
 
 "Salir y seleccionar arriba del terminal 
-tnoremap <silent> <C-t><C-t> <C-\><C-n><C-w><C-k>
+tnoremap <silent> <C-q><C-q> <C-\><C-n><C-w><C-k>
 
 "Regresar al terminal abierto
 nnoremap <silent> <leader>t <C-w><C-j>i
@@ -65,6 +69,8 @@ nnoremap <silent> <C-t> :split<Enter>:terminal<Enter><C-\><C-n><C-w><C-r><C-w><C
 "Minimizar y Maximizar terminal
 tnoremap <silent> <C-n><C-n> <C-\><C-n><C-w><C--><C-w><C--><C-w><C--><C-w><C-->i
 tnoremap <silent> <C-m><C-m> <C-\><C-n><C-w><C-+><C-w><C-+><C-w><C-+><C-w><C-+>i
+"=======================================================================================
+
 
 
 "Git add .
@@ -80,10 +86,11 @@ nmap <leader>gp :! git push -u origin master
 nmap <leader>ggg :! git add . & git commit -m "update L/I" & git push -u origin master <Enter>
 
 
+"OPEN VN notions
+nmap <leader>notion :tabnew C:\Users\Acer\AppData\Local\nvim\VN-notions.md<Enter>
 
 "OPEN VN notions
-nmap <leader>notion :tabnew C:\Users\Acer\AppData\Local\nvim\VN-notions.md <Enter>
-
+nmap <leader>init :tabnew C:\Users\Acer\AppData\Local\nvim\init.vim<Enter> 
 
 
 "split windows HORIZONTAL
@@ -102,7 +109,7 @@ nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
 "search commands 
 "comandos de busqueda
-nmap <leader>gs  :CocSearch
+nmap <leader>gs :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 "configuracion de tabs
