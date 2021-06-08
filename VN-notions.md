@@ -39,5 +39,5 @@ leader gp
 / Git Automatic (NMAP) push add . / commit "low/Importance"/ push to master
 leader ggg
 
-/ Git Custom Push (IMAP)
+/ SAVE AND Git Custom Push (IMAP)
 leader hhwgc
