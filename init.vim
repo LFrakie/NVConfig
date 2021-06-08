@@ -36,6 +36,9 @@ nmap m $
 "Salir de modo insertar y guardar
 imap hhw <Esc> :w <Enter>
 
+"Salir de modo insert, guardar y subida rapida mediante git GGG -low importance 
+imap hhwg <Esc>:! git add . & git commit -m "update hgit L/I" & git push -u origin master <Enter>
+
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv 
 xnoremap K :move '<-2<CR>gv-gv
