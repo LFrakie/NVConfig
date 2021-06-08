@@ -1,8 +1,25 @@
-F
-test asd fff
-este es u nuevo texto en o para vim
-FF jj dF afafafafafafafafafafafafafafafaf
+Path neovim: C:\Users\Acer\AppData\Local\nvim
+////////////////////////////////////////////////////
 
-:s i
-ddddddddddddddddddddddddd
-gg afafafafafafafafafafafafafafafaf
+/////// ACTIVAR TERMINAL
+/ terminal abajo:
+Ctrl + t
+
+/ salir de terminal:
+Ctrl + t t
+
+/ regresar de main a terminal:
+<leader> + t
+
+/ Redimencionar tamaño de terminal
+aumentar:
+Ctrl + mm
+
+reducir:
+Ctrl + nn
+
+/ modo sin complicaciones
+MAINT to TERMINAL ()
+Ctrl + z
+
+//////
