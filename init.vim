@@ -53,7 +53,7 @@ tnoremap <silent> <C-z> <C-\><C-n>:ToggleTerminal<Enter>
 "////
 
 "Salir y seleccionar arriba del terminal 
-tnoremap <silent> <leader>tt <C-\><C-n><C-w><C-k>
+tnoremap <silent> <C-t><C-t> <C-\><C-n><C-w><C-k>
 
 "Regresar al terminal abierto
 nnoremap <silent> <leader>t <C-w><C-j>i
@@ -63,9 +63,8 @@ nnoremap <silent> <leader>t <C-w><C-j>i
 nnoremap <silent> <C-t> :split<Enter>:terminal<Enter><C-\><C-n><C-w><C-r><C-w><C--><C-w><C--><C-w><C-->i
 
 "Minimizar y Maximizar terminal
-tnoremap <silent> <leader>nn <C-\><C-n><C-w><C--><C-w><C--><C-w><C--><C-w><C-->i
-tnoremap <silent> <leader>mm <C-\><C-n><C-w><C-+><C-w><C-+><C-w><C-+><C-w><C-+>i
-
+tnoremap <silent> <C-n><C-n> <C-\><C-n><C-w><C--><C-w><C--><C-w><C--><C-w><C-->i
+tnoremap <silent> <C-m><C-m> <C-\><C-n><C-w><C-+><C-w><C-+><C-w><C-+><C-w><C-+>i
 
 
 "Git add .
