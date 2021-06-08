@@ -25,12 +25,12 @@ set guioptions-=T
 set guioptions-=L
 "Get out of insert mode 
 "Salir de modo insertar
-imap nn <Esc>
-imap NN <Esc>2
+imap hh <Esc>
+imap HH <Esc>2
 imap <C-c> <Esc>l
 
 "Salir de modo insertar y guardar
-imap nnw <Esc> :w <Enter>
+imap hhw <Esc> :w <Enter>
 
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv 
@@ -50,6 +50,23 @@ source ~/AppData/Local/nvim/themes/onedark.vim
 " toggle terminal
 nnoremap <silent> <C-z> :ToggleTerminal<Enter>
 tnoremap <silent> <C-z> <C-\><C-n>:ToggleTerminal<Enter>
+"////
+
+"Salir y seleccionar arriba del terminal 
+tnoremap <silent> <leader>tt <C-\><C-n><C-w><C-k>
+
+"Regresar al terminal abierto
+nnoremap <silent> <leader>t <C-w><C-j>i
+
+" Abrir terminal abajo
+"nnoremap <silent> <leader>t :ToggleTerminal<Enter><C-\><C-n>:split<Enter><C-w><C-r><C-w><C-k><TAB>
+nnoremap <silent> <C-t> :split<Enter>:terminal<Enter><C-\><C-n><C-w><C-r><C-w><C--><C-w><C--><C-w><C-->i
+
+"Minimizar y Maximizar terminal
+tnoremap <silent> <leader>nn <C-\><C-n><C-w><C--><C-w><C--><C-w><C--><C-w><C-->i
+tnoremap <silent> <leader>mm <C-\><C-n><C-w><C-+><C-w><C-+><C-w><C-+><C-w><C-+>i
+
+
 
 "Git add .
 nmap <leader>ga :! git add . 
@@ -62,6 +79,13 @@ nmap <leader>gp :! git push -u origin master
 
 "Git Fast Push To Master - Add with Commit -Update Low Importance
 nmap <leader>ggg :! git add . & git commit -m "update L/I" & git push -u origin master <Enter>
+
+
+
+"OPEN VN notions
+nmap <leader>notion :tabnew C:\Users\Acer\AppData\Local\nvim\VN-notions.md <Enter>
+
+
 
 "split windows HORIZONTAL
 nmap <leader>hw :sp <CR>
@@ -129,9 +153,20 @@ colorscheme tokyonight
 
 
 
+"NeoTerm code 
+
+set nocompatible
+filetype off
+
+let &runtimepath.=',~/.vim/bundle/neoterm'
+
+filetype plugin on
+
+
+"----------------------------------------------
+
 
 "Ruta de python 
-
 let g:python3_host_prog = '/Users/Acer/AppData/Local/Programs/Python/Python39/python.exe'
 let g:python_host_prog ='/python27/python.exe'
 
