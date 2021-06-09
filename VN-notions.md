@@ -41,3 +41,5 @@ leader ggg
 
 / SAVE AND Git Custom Push (IMAP)
 leader hhwgc
+
+vamos a borrar esta parte de la historia con git
