@@ -42,14 +42,8 @@ leader ggg
 / SAVE AND Git Custom Push (IMAP)
 leader hhwgc
 
-<<<<<<< HEAD
 vamos a borrar esta parte de la historia con git
 
-# y esta parte tmbn
+y esta parte tmbn
 
-new test update gg
-obten un descuento xDDD es broma jto :v
-
-O eso o nse FFFF
-
-> > > > > > > parent of 400eb60 (Revert "asd")
+ahora si todo ok
