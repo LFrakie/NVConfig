@@ -126,10 +126,11 @@ let g:indentLine_faster = 1
 let g:indentLine_fileTypeExclude=["nerdtree"]
 
 "abrir Nerdtree
-"open nerdtree
+
+"toggle open nerdtree
 nmap <Leader>e :NERDTreeToggle<CR>
 
-"close nerdtree
+"toggle close nerdtree
 nmap <Leader>ee :NERDTreeToggleVCS<CR>
 
 "open cocExplorer 
