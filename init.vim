@@ -127,10 +127,10 @@ let g:indentLine_fileTypeExclude=["nerdtree"]
 
 "abrir Nerdtree
 "open nerdtree
-nmap <Leader>e :NERDTree<CR>
+nmap <Leader>e :NERDTreeToggle<CR>
 
 "close nerdtree
-nmap <Leader>ee :NERDTreeClose<CR>
+nmap <Leader>ee :NERDTreeToggleVCS<CR>
 
 "open cocExplorer 
 "Buscar dos carácteres con easymotion
